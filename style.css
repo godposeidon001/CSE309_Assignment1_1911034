@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f5eff3;
+}
+
+header {
+    background-color: #f5eff3;
+    padding: 20px 0;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+}
+
+.header-text {
+    line-height: 0.4;
+}
+
+.section {
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+.line {
+    margin-top: 20px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #553437;
+    color: white;
+    padding: 10px 0px;
+    
+}
+
+p, ul {
+    font-size: 16px;
+}
+
+#iub{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#dept{
+    font-weight: normal;
+    font-size: 16px;
+}
+
+#cc{
+    text-align:justify;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #dfece5; 
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+.custom-list {
+    padding-left: 0px;
+    list-style:circle;
+}
+
+.custom-list li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.week {
+    background: linear-gradient(45deg, #553437, #619e9a);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent; 
+    font-size: 16px; 
+    font-weight: bold;
+}
+
+.center {
+    display:flex;
+    justify-content: center;
+
+}
+
+.column {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.highlight-purple {
+    background-color: purple;
+    color: white;
+    padding: 5px;
+}
+
+.highlight-navy-blue {
+    background-color: navy;
+    color: white;
+    padding: 5px;
+}
+
+.highlight-orange {
+    background-color: orange;
+    color: white;
+    padding: 5px;
+}
+
+.highlight-yellow {
+    background-color: rgb(251, 255, 0);
+    color: black;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+.highlight-black {
+    background-color: rgb(12, 14, 12);
+    color: white;
+    padding: 5px;
+}
+
+.highlight-red {
+    background-color: rgb(214, 63, 3);
+    color: white;
+    padding: 5px;
+}
+
+.highlight-cyan {
+    background-color: rgb(6, 208, 235);
+    color: white;
+    padding: 5px;
+}
